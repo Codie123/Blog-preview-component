@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Blog-preview-card](https://www.frontendmentor.io/solutions/blogpreview-card-animtion-OXL7lzSNXb)
 - Live Site URL: [Check it out](https://codie123.github.io/Blog-preview-component/)
 
 ## My process
@@ -44,29 +44,11 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
+Gsap is a powerfull tool packed with variety of plugins out of it i had tried basic gsap integration on a project and played with basic aniamtion .
 
 ### Useful resources
 
-- [Example resource 1](https://gsap.com/docs/v3/) - This helped me for Animation . I really liked playing with it.
+- [Animate Anything](https://gsap.com/docs/v3/) - This helped me for Animation . I really liked playing with it.
 
 ## Author
 
