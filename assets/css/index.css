@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+:root {
+  /* Primary color */
+  --Yellow: hsl(47, 88%, 63%);
+  /* Neutral color */
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 50%);
+  --Black: hsl(0, 0%, 7%);
+  /* font and family */
+  --D-f: 1em;
+  --Figtree: "Figtree", sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-size: var(--D-f);
+  font-family: var(--Figtree);
+  background-color: var(--Yellow);
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.card {
+  border-radius: 20px;
+  border: 2px solid var(--Black);
+  background-color: var(--White);
+  padding: 1.5rem;
+  max-width: 385px;
+  width: 100%;
+  opacity: 0;
+  transform: scale(0.1);
+  box-shadow: 8px 8px 0px var(--Black);
+  overflow: hidden;
+}
+
+.card svg {
+  display: block;
+  width: 100%;
+  border-radius: 9px;
+  margin-bottom: 1.3rem;
+  height: inherit;
+}
+.tag {
+  width: fit-content;
+  margin-bottom: 0.9rem;
+  color: var(--Black);
+  background-color: var(--Yellow);
+  border-radius: 4px;
+  padding: 0.4rem 0.7rem;
+  font-weight: 800;
+  font-size: 13px;
+}
+.date {
+  font-size: 0.875em;
+  font-weight: 600;
+  /* margin-bottom: 1rem; */
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+.content a {
+  font-weight: 900;
+  margin: 1rem 0;
+  color: var(--Black);
+  transition: all 0.3s ease-in-out;
+  font-size: 1.5em;
+}
+.content a:hover {
+  color: var(--Yellow);
+}
+.content p {
+  color: var(--Grey);
+}
+.prf-cont {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.prf-cont img {
+  width: 40px;
+  border-radius: 50%;
+}
+.prf-cont h2 {
+  font-size: var(--D-f);
+  font-weight: 800;
+}
+.svg-container {
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+
+.content {
+  overflow: hidden;
+}
+
+@media (max-width: 425px) {
+  main {
+    padding: 0 1.5rem;
+  }
+  .date {
+    font-size: 0.775em;
+  }
+  .content a {
+    font-size: 1.37em;
+  }
+  .content p {
+    font-size: 0.8em;
+  }
+}
